@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Jira is a widely used issue tracking and project management software developed by Atlassian. It is designed to help teams plan, track, and manage their work effectively. 
+ Some Key features:
+	1. Issue Tracking
+	2. Agile Project Management
+	3. Customization and Workflow
+	4. Integration and Extensibility
+	5. Reporting and Analytics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Step 1:
+I have created Plugin with the help of Atlassian SDK and it will start the JIRA on the local host (localhost:2990/jira)
+	1. For more details: 
+		a. You can refer this link to install Atlassian SDK:
+			i. https://developer.atlassian.com/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project/
+		b. Create a plugin and start JIRA server on localhost:
+			i. https://developer.atlassian.com/server/framework/atlassian-sdk/create-a-helloworld-plugin-project/
 
-## Available Scripts
+# Step 2:
+I have created a API using NodeJS/Express JS for making a call to JIRA REST API 
+JIRA REST API: The Jira REST API (Application Programming Interface) is a set of endpoints and methods provided by Atlassian Jira that allows developers to interact with Jira programmatically
+The Jira REST API supports CRUD (Create, Read, Update, Delete) operations, allowing developers to:
+	1. Create new issues, comments, or attachments.
+	2. Retrieve issue details, project information, user data, and more.
+	3. Update or edit existing issues, workflows, or project configurations.
+	4. Delete issues or other Jira entities.
 
-In the project directory, you can run:
+# Step 3:
+I have created front end webpage using React JS with Atlaskit and Material UI
+In the React App, I have created UI where all the JIRA projects with count of issues will be displayed in table format
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Summary:
+React JS App request to Node JS server for JIRA project related details, then Node JS server will make a call to JIRA REST API and retrieve a details of JIRA projects. After that NODE JS server send back a response to React JS App. 
+![image](https://github.com/mohitk2001/homeassignment/assets/70239752/2b2a80f1-d6ba-4e1d-bb80-51782cdc7986)
