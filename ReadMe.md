@@ -29,4 +29,4 @@ In the React App, I have created UI where all the JIRA projects with count of is
 
 # Summary:
 React JS App request to Node JS server for JIRA project related details, then Node JS server will make a call to JIRA REST API and retrieve a details of JIRA projects. After that NODE JS server send back a response to React JS App. 
-![image](https://github.com/mohitk2001/homeassignment/assets/70239752/2b2a80f1-d6ba-4e1d-bb80-51782cdc7986)
+
