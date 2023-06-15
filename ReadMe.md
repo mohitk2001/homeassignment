@@ -1,8 +1,8 @@
 # Jira is a widely used issue tracking and project management software developed by Atlassian. It is designed to help teams plan, track, and manage their work effectively. 
  Some Key features:
-	1. Issue Tracking
-	2. Agile Project Management
-	3. Customization and Workflow
+ Issue Tracking
+ Agile Project Management
+3. Customization and Workflow
 	4. Integration and Extensibility
 	5. Reporting and Analytics
 
