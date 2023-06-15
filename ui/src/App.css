@@ -1,0 +1,12 @@
+
+.AppHeader {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+}
+.AppHeader > h1 {
+  margin-left: 0.6rem;
+}

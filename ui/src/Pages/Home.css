@@ -1,0 +1,16 @@
+.Home{
+    border: 1px solid #222 ;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.modalButtons{
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-top: 20px !important;
+}
